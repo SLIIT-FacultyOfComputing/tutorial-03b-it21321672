@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+
 int volume(int height, int width, int length);
 
 int main() {
@@ -27,10 +28,9 @@ int main() {
     cout << "Volume of Box is " << totalVolume << endl;
     
     return 0;
-  }
-int volume(int height, int width, int length);
-{
-  int v;
-  v=height*width*length;
-  return v;
-} 
+}
+
+// Implement the Volume() function here
+int volume(int height, int width, int length) {
+    return height * width * length;
+}
